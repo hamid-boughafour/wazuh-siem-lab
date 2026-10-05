@@ -1,0 +1,16 @@
+# Imagenes y discos de maquinas virtuales
+*.vmdk
+*.iso
+*.ova
+*.vdi
+
+# Secretos y credenciales
+.env
+*.key
+*.pem
+*password*
+*credentials*
+
+# Logs y temporales
+*.log
+*.tmp
