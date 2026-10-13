@@ -13,15 +13,15 @@ Laboratorio de ciberseguridad defensiva: despliegue de Wazuh, detección de ataq
 
 | Componente | Versión |
 |---|---|
-| Wazuh | Pendiente |
+| Wazuh | 4.14.8 |
 | Sistema operativo | Debian 13 |
-| Hipervisor | Pendiente |
+| Hipervisor | VMware Workstation |
 
 ## Escenarios de detección
 
 | ID | Técnica MITRE ATT&CK | Estado | Informe |
 |---|---|---|---|
-| IR-001 | T1110 Fuerza bruta SSH | Pendiente | - |
+| IR-001 | T1110 Fuerza bruta SSH | Completado | [Ver informe](incident-reports/IR-001-fuerza-bruta-ssh.md) |
 | IR-002 | T1046 Escaneo de puertos | Pendiente | - |
 | IR-003 | T1565 Modificación de ficheros críticos | Pendiente | - |
 | IR-004 | T1190 Ataques web a Apache | Pendiente | - |
@@ -29,11 +29,11 @@ Laboratorio de ciberseguridad defensiva: despliegue de Wazuh, detección de ataq
 ## Estado del proyecto
 
 - [x] Fase 0: repositorio y estructura
-- [ ] Fase 1: máquinas virtuales y red aislada
-- [ ] Fase 2: instalación de Wazuh
-- [ ] Fase 3: despliegue del agente
-- [ ] Fase 4: escenarios de ataque y detección
-- [ ] Fase 5: respuesta activa y regla personalizada
+- [x] Fase 1: máquinas virtuales y red aislada
+- [x] Fase 2: instalación de Wazuh
+- [x] Fase 3: despliegue del agente
+- [ ] Fase 4: escenarios de ataque y detección (IR-001 completado; IR-002, IR-003, IR-004 pendientes)
+- [x] Fase 5: respuesta activa y regla personalizada
 - [ ] Fase 6: cierre y versión 1.0
 
 ## Estructura del repositorio
@@ -49,4 +49,4 @@ Todas las pruebas se realizan en un laboratorio aislado y propio, sobre máquina
 
 ## Autor
 
-Abdelhamid Boughafour · [LinkedIn](https://www.linkedin.com/in/abdelhamid-boughafour/)
+Abdelhamid Boughafour · LinkedIn
