@@ -22,7 +22,7 @@ Laboratorio de ciberseguridad defensiva: despliegue de Wazuh, detección de ataq
 | ID | Técnica MITRE ATT&CK | Estado | Informe |
 |---|---|---|---|
 | IR-001 | T1110 Fuerza bruta SSH | Completado | [Ver informe](incident-reports/IR-001-fuerza-bruta-ssh.md) |
-| IR-002 | T1046 Escaneo de puertos | Pendiente | - |
+| IR-002 | T1046 Escaneo de puertos | Completado | [Ver informe](incident-reports/IR-002-escaneo-puertos.md) |
 | IR-003 | T1565 Modificación de ficheros críticos | Pendiente | - |
 | IR-004 | T1190 Ataques web a Apache | Pendiente | - |
 
@@ -32,7 +32,7 @@ Laboratorio de ciberseguridad defensiva: despliegue de Wazuh, detección de ataq
 - [x] Fase 1: máquinas virtuales y red aislada
 - [x] Fase 2: instalación de Wazuh
 - [x] Fase 3: despliegue del agente
-- [ ] Fase 4: escenarios de ataque y detección (IR-001 completado; IR-002, IR-003, IR-004 pendientes)
+- [ ] Fase 4: escenarios de ataque y detección (IR-001 e IR-002 completados; IR-003, IR-004 pendientes)
 - [x] Fase 5: respuesta activa y regla personalizada
 - [ ] Fase 6: cierre y versión 1.0
 
